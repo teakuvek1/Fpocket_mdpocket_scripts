@@ -1,0 +1,20 @@
+# Ignore common simulation / data formats
+*.imd linguist-detectable=false
+*.arg linguist-detectable=false
+*.jobs linguist-detectable=false
+*.top linguist-detectable=false
+*.itp linguist-detectable=false
+*.ndx linguist-detectable=false
+*.gro linguist-detectable=false
+*.pdb linguist-detectable=false
+*.pqr linguist-detectable=false
+*.xtc linguist-detectable=false
+*.trr linguist-detectable=false
+*.dat linguist-detectable=false
+*.csv linguist-detectable=false
+*.txt linguist-detectable=false
+
+# Ignore whole directories that are mostly inputs/outputs (adjust names to your repo)
+files/** linguist-detectable=false
+human_cyps/** linguist-detectable=false
+plant_cyps/** linguist-detectable=false
