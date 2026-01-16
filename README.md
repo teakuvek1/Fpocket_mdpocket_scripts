@@ -2,7 +2,7 @@
 
 MD simulation setup files for CYPs fpocket work, scripts to extract and analyze the data 
 
-*MD simulation files*
+## MD simulation files
 
 Directories human_cyps and plant_cyps contain all the files needed to reproduce the Md ismulation trajectories. Each CYP has 7 directories, starting from topology and ending with md. They have a prefix number which says in which order they are to be used. Ion topologies, mtb, ifp and library files can be found in folder files.
 Useful info:
@@ -13,7 +13,7 @@ Useful info:
 - equilibration is done with gromos
 - md is done with gromacs
 
-*Pocket analysis scripts*
+## Pocket analysis scripts
 
 - mdpocket:
 	- md_pocket_gmx.sh concatanates the created replicates for a certain CYP, aligns them on a reference structure and runs mdpocket
