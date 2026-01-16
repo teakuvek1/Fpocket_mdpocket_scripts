@@ -1,4 +1,4 @@
-#Fpocket/mdpocket paper scripts
+# Fpocket/mdpocket paper scripts
 
 MD simulation setup files for CYPs fpocket work, scripts to extract and analyze the data 
 
