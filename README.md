@@ -1,3 +1,7 @@
+#Fpocket/mdpocket paper scripts
+
+MD simulation setup files for CYPs fpocket work, scripts to extract and analyze the data 
+
 *MD simulation files*
 
 Directories human_cyps and plant_cyps contain all the files needed to reproduce the Md ismulation trajectories. Each CYP has 7 directories, starting from topology and ending with md. They have a prefix number which says in which order they are to be used. Ion topologies, mtb, ifp and library files can be found in folder files.
